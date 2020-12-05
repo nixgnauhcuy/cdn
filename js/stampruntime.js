@@ -30,7 +30,7 @@ function myTimer(){
   time[2]=Math.floor((all_sec-(time[0]*365+time[1])*days)/hours);
   time[3]=Math.floor((all_sec-(time[0]*365+time[1])*days-time[2]*hours)/minutes);
   time[4]= Math.floor((all_sec-(time[0]*365+time[1])*days-time[2]*hours-time[3]*minutes)/seconds);
-  currentTimeHtml='本站已安全运行 '+time[0]+' 年 '+time[1]+' 天 '+time[2]+' 时 '+time[3]+' 分 '+time[4]+' 秒';
+  currentTimeHtml='风吹雨打中坚挺了 '+time[0]+' 年 '+time[1]+' 天 '+time[2]+' 时 '+time[3]+' 分 '+time[4]+' 秒';
   document.getElementById("running-time").innerHTML=currentTimeHtml;
 };
 
