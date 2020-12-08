@@ -1,0 +1,9 @@
+/* 主页半透明度 */
+.layout_page {
+  opacity: 0.9;
+}
+
+/* 取消页脚背景 */
+#footer {
+  background: none;
+}
