@@ -8,14 +8,19 @@
   background: none;
 }
 
-/* 取消banner背景 */
+/* banner背景 */
 #page-header {
   /* 采用透明的方式取消，最后一个0表示透明 */
   background-color: rgba(255, 255, 255, 0);
 }
 
-
+/* 文章背景 */
 .layout > div:first-child:not(.recent-posts) {
+    background: rgba(255,255,255,.6);
+}
+
+/* 首页文章卡片背景 */
+#recent-posts > .recent-post-item {
     background: rgba(255,255,255,.6);
 }
 
@@ -24,8 +29,13 @@
     /* 以下代表白色透明度为0.6 */
     background: rgba(255,255,255,.6);
 }
-/* 所有背景（包括首页卡片、文章页、页面页等） */
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+
+/* 卡片背景 */
+#aside_content .card-widget {
+	background: rgba(255,255,255,.6);
+}
+
+.layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
     /* 以下代表白色透明度为0.6 */
     background: rgba(255,255,255,.6);
 }
