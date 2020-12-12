@@ -16,7 +16,7 @@
 
 /* 文章背景 */
 .layout > div:first-child:not(.recent-posts) {
-    background: rgba(255,255,255,.6);
+    background: rgba(255,235,235,.6);
 }
 
 /* 首页文章卡片背景 */
@@ -47,7 +47,19 @@
  .article-meta-wrap a: 标签
  .content: 摘要
 */
-#recent-posts>.recent-post-item>.recent-post-info>.article-title, .article-meta-wrap, .article-meta-wrap a, .content {
+#recent-posts>.recent-post-item>.recent-post-info>.article-title, .content {
+    color: #ffffff;
+}
+
+#recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap {
+    color: #ffffff;
+}
+
+#recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap a {
+    color: #ffffff;
+}
+
+#recent-posts>.content {
     color: #ffffff;
 }
 
@@ -73,16 +85,17 @@
 
 /* 文章中 引用块 */
 blockquote {
-    margin: 0 0 1rem;
-    padding: .1rem .8rem;
-    border-left: .2rem solid #f54949;
-    background-color: rgb(172 208 242 / 52%);
-    color: var(--blockquote-color);
+    border-left: .2rem solid #18e0ce;
+    background-color: rgb(153 193 162 / 43%);
 }
 
 /*
 	copyright
 */
+#post .post-copyright .post-copyright-meta {
+    color: #000000ad;
+}
+
 #post .post-copyright .post-copyright-info a {
     text-decoration: underline;
     word-break: break-word;
@@ -91,35 +104,32 @@ blockquote {
 
 /* 文章底部的标签图标 */
 #post .tag_share .post-meta__tags {
-    display: inline-block;
-    margin: .4rem .4rem .4rem 0;
-    padding: 0 .9rem;
-    width: fit-content;
-    border: 2px solid #ffffff;
-    border-radius: .6rem;
-    color: #f54981;
+	padding: 0 .9rem
+    color: #49f5e5;
     font-size: .9em;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
 }
 
 /* 评论*/
 .v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code {
-    color: #fff;
-}
-
-.v[data-class=v] .vcards .vcard .vhead .vnick {
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .v[data-class=v] a {
-    color: #fff;
+    color: #FFFFFF;
 }
 
+.v[data-class=v] .vsys, .v[data-class=v] .vtime {
+    color: #ffffff;
+}
+
+
+
 /* 隐藏底部的power valine */
+.v[data-class=v] .txt-right {
+}
+
 .v[data-class=v] .vpower {
-    font-size: .0em;
+}
+
+.v[data-class=v] .vpower a {
 }
