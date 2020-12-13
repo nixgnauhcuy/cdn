@@ -57,17 +57,10 @@ function bot_ui_ini() {
             })
         },
         end = function () {
-			botui.action.button({
-                    delay: 1000,
-                    content: "![...](https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/about/01.jpg)"
-            }).then(function () {
-				botui.message.add({
-					delay: 1000,
-					content: "![...](https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/about/00.jpg)"
-				})
-			}
-			
-            
+            botui.message.add({
+                delay: 600,
+                content: "![...](https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/about/00.jpg)"
+            })
         },
         secondpart = function () {
             botui.message.add({
@@ -90,16 +83,21 @@ function bot_ui_ini() {
                                 delay: 1500,
                                 content: "做过 Andriod APP~，用过 python 写过几个工具~"
                             }).then(function () {
-								botui.action.button({
-									delay: 1100,
-									action: [{
-										text: "还能更了解你吗？🤔",
-										value: "why-nixgnauhcuy"
-									}]
-								}).then(function (a) {
-									thirdpart()
-								})
-							})
+                                botui.message.add({
+                                    delay: 1800,
+                                    content: "喜欢看韩剧和玩手游"
+                                }).then(function () {
+                                    botui.action.button({
+                                        delay: 1100,
+                                        action: [{
+                                            text: "还能更了解你吗？🤔",
+                                            value: "why-nixgnauhcuy"
+                                        }]
+                                    }).then(function (a) {
+                                        thirdpart()
+                                    })
+                                })
+                            })
                         })
                     })
                 })
@@ -128,13 +126,13 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "还养了两个小猫祖宗，天天折腾我"
+                    content: "还养了两个小祖宗，天天折腾我"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
                         action: [{
                             text: "我要怎么联系你呢？",
-                            value: "why"
+                            value: "why-call"
                         }]
                     }).then(function (a) {
                         fifthpart()
