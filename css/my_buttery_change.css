@@ -40,6 +40,18 @@
     background: rgba(255,255,255,.6);
 }
 
+
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/huaji.png),
+        default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/yinxian.png),
+        default;
+}
+
+
 /*
  首页文章卡片标题
  .article-title: 标题
