@@ -1,3 +1,14 @@
+/* source-code-pro-regular - latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/font/source-code-pro-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/font/source-code-pro-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
 /* 主页半透明度 */
 .layout_page {
   opacity: 0.9;
@@ -95,24 +106,12 @@ img {
     color: #f54949;
 }
 
-/* 文章中 引用块 */
+/* 文章中引用块 */
 blockquote {
     border-left: .2rem solid #18e0ce;
     background-color: rgb(153 193 162 / 43%);
 }
 
-/*
-	copyright
-*/
-#post .post-copyright .post-copyright-meta {
-    color: #000000ad;
-}
-
-#post .post-copyright .post-copyright-info a {
-    text-decoration: underline;
-    word-break: break-word;
-    color: #64fff1;
-}
 
 /* 文章底部的标签图标 */
 #post .tag_share .post-meta__tags {
@@ -121,27 +120,73 @@ blockquote {
     font-size: .9em;
 }
 
-/* 评论*/
-.v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code {
-    color: #FFFFFF;
+/* 博主昵称颜色 */
+.author-info__name {
+    color: #00FFFF;
 }
 
-.v[data-class=v] a {
-    color: #FFFFFF;
+/* 版权链接去掉下划线 */
+.layout_post .post-copyright .post-copyright-info a {
+    text-decoration: none;
 }
 
+
+/******************************************* valine相关 *******************************************/
+/* 评论框  */
+.vwrap {
+    box-shadow: 2px 2px 5px #bf9c71;
+    background: rgb(255 255 255 / 50%);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 30px 0px 30px 0px;
+}
+
+
+/* 提交按钮 */
+#vcomment button {
+    padding: 0.3rem 0.8rem;
+    border-color: #fff;
+    background-color: #e58a8a;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* 评论区代码块 */
+.v[data-class=v] code {
+    color: #c7254e;
+    background-color: #F9F2F4;
+}
+
+/* 设置评论框 */
+.vcard {
+    box-shadow: 2px 10px 18px #bf9c71;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* 取消回复聊天框 */
+.vquote .vcard {
+    box-shadow: 2px 2px 5px transparent;
+    background: rgba(255, 255, 255, 0.0);
+    padding: 0px;
+}
+
+/* 设置评论区用户来源和时间*/
 .v[data-class=v] .vsys, .v[data-class=v] .vtime {
-    color: #ffffff;
+    color: #e21414;
+}
+
+/* 设置评论区用户名*/
+.v[data-class=v] .vnick {
+	color: ##ff34e6;
 }
 
 
-
-/* 隐藏底部的power valine */
-.v[data-class=v] .txt-right {
-}
-
-.v[data-class=v] .vpower {
-}
-
-.v[data-class=v] .vpower a {
-}
