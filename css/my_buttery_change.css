@@ -135,3 +135,23 @@ canvas:not(#ribbon-canvas), #web_bg {
     margin-bottom: -0.5rem;
     display: block;
 }
+
+
+img[src*='#img-radius'] {
+    border-radius: 9px;
+}
+
+img{
+    border-radius: 9px;
+}
+
+img:hover{
+    box-shadow: 0 0px 10px 5px #0dc2cf;
+}
+#article-container figure.highlight:hover{
+    box-shadow: 0 0px 10px 5px #deec22;
+}
+
+blockquote:hover {
+    box-shadow: 0 0px 10px 5px #27aa23;
+}
