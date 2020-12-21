@@ -163,9 +163,6 @@ img:hover{
     box-shadow: 0 0px 10px 5px #ffb8b8;
 }
 
-blockquote:hover {
-    box-shadow: 0 0px 10px 5px #27aa23;
-}
 
 #recent-posts>.recent-post-item:hover {
     box-shadow: 0 0px 10px 5px #0dc2cf;
