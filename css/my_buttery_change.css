@@ -106,28 +106,39 @@ img {
     color: #f54949;
 }
 
-/* 文章中引用块 */
 blockquote {
-    border-left: .2rem solid #18e0ce;
-    background-color: rgb(153 193 162 / 43%);
+    border-left: .2rem solid #000000;
+    background-color: rgb(255 255 255 / 45%);
+}
+
+blockquote:hover {
+    box-shadow: 0 0px 10px 10px #ffffff;
 }
 
 
 /* 文章底部的标签图标 */
 #post .tag_share .post-meta__tags {
-	padding: 0 .9rem
-    color: #49f5e5;
+    color: #ffffff;
     font-size: .9em;
+	border: 2px solid #ffffff;
 }
 
 /* 博主昵称颜色 */
 .author-info__name {
-    color: #00FFFF;
+    color: #FFFFFF;
 }
 
-/* 版权链接去掉下划线 */
-.layout_post .post-copyright .post-copyright-info a {
+#post .post-copyright .post-copyright-meta {
+	color: #ffffff;
+}
+
+#post .post-copyright .post-copyright-info {
+	color: #ad2222;
+}
+
+#post .post-copyright .post-copyright-info a {
     text-decoration: none;
+	color: #3df9f0;
 }
 
 /* 鱼塘固定宽度 */
@@ -146,10 +157,10 @@ img{
 }
 
 img:hover{
-    box-shadow: 0 0px 10px 5px #0dc2cf;
+    box-shadow: 0 0px 10px 10px #b8ffd1;
 }
 #article-container figure.highlight:hover{
-    box-shadow: 0 0px 10px 5px #deec22;
+    box-shadow: 0 0px 10px 5px #ffb8b8;
 }
 
 blockquote:hover {
@@ -159,3 +170,4 @@ blockquote:hover {
 #recent-posts>.recent-post-item:hover {
     box-shadow: 0 0px 10px 5px #0dc2cf;
 }
+
