@@ -483,15 +483,15 @@ function bot_ui_ini() {
           }).then(function() {
             botui.message.add({
               delay: 2000,
-              content: "主要使用 Freertos、低功耗蓝牙、ST、Nodic 等。👀"
+              content: "我目前正在做一些很酷的东西，主要使用 Freertos、低功耗蓝牙、ST、Nodic 等进行开发。👀"
             }).then(function() {
               botui.message.add({
                 delay: 1500,
-                content: "做过 Andriod APP~，用过 python 写过几个工具~"
+                content: "当然，我也做过 Andriod APP~，用过 python 写过几个工具~"
               }).then(function() {
                 botui.message.add({
                   delay: 1500,
-                  content: "现在主要做智能穿戴方向的产品。😶"
+                  content: "现在主要做智能穿戴的产品。😶"
                 }).then(function() {
                     botui.action.button({
                         delay: 2000,
@@ -511,12 +511,12 @@ function bot_ui_ini() {
       thirdpart = function() {
         botui.message.add({
           delay: 2500,
-          content: "我经常在空闲的时候看看综艺，偶尔约上几个小伙伴打打 CSGO，不然就是撸撸我家两个小祖宗😏"
+          content: "我经常在空闲的时候看看综艺，偶尔约上几个小伙伴打打 CSGO，不然就是讨好我家的两个小祖宗😏"
         }).then(function() {
           botui.action.button({
             delay: 2000,
             action: [{
-              text: "😲，两个小祖宗？"
+              text: "😲!两个小祖宗？"
             }]
           }).then(function(a) {
             fourthpart()
@@ -526,7 +526,7 @@ function bot_ui_ini() {
       fourthpart = function() {
         botui.message.add({
           delay: 2000,
-          content: "hhh，是我养的两只猫啦。可以在我博客的相册里面看到它们俩的照片哦。 "
+          content: "hhh，是我养的两只猫啦。 "
         }).then(function() {
           botui.message.add({
             delay: 1500,
@@ -546,11 +546,11 @@ function bot_ui_ini() {
       fifthpart = function() {
         botui.message.add({
           delay: 2500,
-          content: "有问题可以在评论区中填写邮箱后留言，我收到邮件后会尽快回复的!😏~"
+          content: "有什么问题想要咨询可以告诉我，我很乐意帮助你，可以在评论区中填写邮箱后留言，我收到邮件后会尽快回复的!😏~"
         }).then(function() {
           botui.message.add({
             delay: 1000,
-            content: "感谢您的驻足，可以积极评论哈👻"
+            content: "感谢您的驻足，可以积极评论哈！👻"
           })
         })
       }
