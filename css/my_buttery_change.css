@@ -1,9 +1,3 @@
-
-/* 主页半透明度 */
-.layout_page {
-  opacity: 0.9;
-}
-
 /* 取消页脚背景 */
 #footer {
   background: none;
@@ -13,32 +7,6 @@
 #page-header {
   /* 采用透明的方式取消，最后一个0表示透明 */
   background-color: rgba(255, 255, 255, 0);
-}
-
-/* 文章背景 */
-.layout > div:first-child:not(.recent-posts) {
-    background: rgba(255,235,235,.6);
-}
-
-/* 首页文章卡片背景 */
-#recent-posts > .recent-post-item {
-    background: rgba(255,255,255,.6);
-}
-
-/* 文章页背景 */
-.layout_post>#post {
-    /* 以下代表白色透明度为0.6 */
-    background: rgba(255,255,255,.6);
-}
-
-/* 卡片背景 */
-#aside_content .card-widget {
-	background: rgba(255,255,255,.6);
-}
-
-.layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* 以下代表白色透明度为0.6 */
-    background: rgba(255,255,255,.6);
 }
 
 
@@ -53,44 +21,6 @@ img {
 }
 
 
-/*
- 首页文章卡片标题
- .article-title: 标题
- .article-meta-wrap: 发表于
- .article-meta-wrap a: 标签
- .content: 摘要
-*/
-#recent-posts>.recent-post-item>.recent-post-info>.article-title, .content {
-    color: #ffffff;
-}
-
-#recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap {
-    color: #ffffff;
-}
-
-#recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap a {
-    color: #ffffff;
-}
-
-#recent-posts>.content {
-    color: #ffffff;
-}
-
-/*
-	文章
-*/
-#article-container p {
-    color: #16202b;
-}
-
-/*
-	文章中 ` ` 
-*/
-#article-container code {
-    background: rgba(27,31,35,.0);
-    color: #00ffd0;
-}
-
 /* 文章中 [](url) 超链接 */
 #article-container a {
     color: #f54949;
@@ -102,33 +32,13 @@ blockquote {
 }
 
 blockquote:hover {
-    box-shadow: 0 0px 10px 10px #ffffff;
+    box-shadow: 0 0px 10px 10px #000000;
 }
 
-
-/* 文章底部的标签图标 */
-#post .tag_share .post-meta__tags {
-    color: #ffffff;
-    font-size: .9em;
-	border: 2px solid #ffffff;
-}
-
-/* 博主昵称颜色 */
-.author-info__name {
-    color: #FFFFFF;
-}
-
-#post .post-copyright .post-copyright-meta {
-	color: #ffffff;
-}
-
-#post .post-copyright .post-copyright-info {
-	color: #ad2222;
-}
 
 #post .post-copyright .post-copyright-info a {
     text-decoration: none;
-	color: #3df9f0;
+	color: #1a9fdd;
 }
 
 /* 鱼塘固定宽度 */
@@ -147,7 +57,7 @@ img{
 }
 
 img:hover{
-    box-shadow: 0 0px 10px 10px #b8ffd1;
+    box-shadow: 0 0px 10px 10px #6d93a8;
 }
 #article-container figure.highlight:hover{
     box-shadow: 0 0px 10px 5px #ffb8b8;
@@ -155,7 +65,7 @@ img:hover{
 
 
 #recent-posts>.recent-post-item:hover {
-    box-shadow: 0 0px 10px 5px #0dc2cf;
+    box-shadow: 0 0px 10px 5px #ffffff;
 }
 
 /*移动端优化：去除归档、标签、最新文章、公告等*/
