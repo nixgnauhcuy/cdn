@@ -87,8 +87,8 @@ img:hover{
 #aside-content .aside-list > .aside-list-item .content > time { color: #ffffff; }
 #aside-content #card-toc .toc-content .toc-link { color: #ffffff; }
 
-#recent-posts { margin-top: -1rem; display: flex; flex-wrap: wrap; justify-content: space-between; text-align:center; align-content: flex-start; flex-direction: column; }
-#recent-posts > .recent-post-item { background: #191919; color: white; margin-top: 1rem; display: inline-block; height: auto; width: 49%; }
+#recent-posts { margin-top: -1rem; display: flex; flex-wrap: wrap; justify-content: space-between; text-align:center; align-content: flex-start; }
+#recent-posts > .recent-post-item { background: #191919; color: white; margin-top: 1rem; display: inline-block; height: auto; width: 49%; flex-direction: column; }
 #recent-posts > .recent-post-item .post_cover { width: 100%; height: 200px; }
 #recent-posts > .recent-post-item .post_cover img.post_bg { width: 100%; height: 100%; }
 #recent-posts > .recent-post-item > .recent-post-info > .content { text-align: left;}
