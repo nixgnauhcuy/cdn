@@ -1,0 +1,108 @@
+/* 取消页脚背景 */
+#footer {
+  background: none;
+}
+
+/* banner背景 */
+#page-header {
+  /* 采用透明的方式取消，最后一个0表示透明 */
+  background-color: rgba(255, 255, 255, 0);
+}
+
+
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/huaji.png),
+        default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/yinxian.png),
+        default;
+}
+
+
+/* 文章中 [](url) 超链接 */
+#article-container a {
+    color: #f54949;
+}
+
+blockquote {
+    border-left: .2rem solid #000000;
+    background-color: rgb(255 255 255 / 45%);
+}
+
+blockquote:hover {
+    box-shadow: 0 0px 10px 10px #000000;
+}
+
+
+#post .post-copyright .post-copyright-info a {
+    text-decoration: none;
+	color: #1a9fdd;
+}
+
+/* 鱼塘固定宽度 */
+canvas:not(#ribbon-canvas), #web_bg {
+    margin-bottom: -0.5rem;
+    display: block;
+}
+
+
+img[src*='#img-radius'] {
+    border-radius: 9px;
+}
+
+img{
+    border-radius: 9px;
+}
+
+img:hover{
+    box-shadow: 0 0px 10px 10px #6d93a8;
+}
+#article-container figure.highlight:hover{
+    box-shadow: 0 0px 10px 5px #ffb8b8;
+}
+
+
+#recent-posts>.recent-post-item:hover {
+    box-shadow: 0 0px 10px 5px #ffffff;
+}
+
+/*移动端优化：去除归档、标签、最新文章、公告等*/
+@media screen and (max-width: 800px) {
+    #aside_content div {
+        display: none;
+    }
+}
+
+
+
+#aside-content .card-widget { background: #191919; color: white; }
+#aside-content>.card-widget:first-child { padding-bottom: 1.2rem; padding: 0px; }
+
+#aside-content .card-info .card-info-social-icons { padding: 10px; --font-color: white; }
+
+#aside-content .card-info img { width: 100%; height: 200px; border-radius: 0px; background: white; }
+#aside-content .card-info img:hover { transform: rotate(0deg) }
+
+
+#aside-content .card-info .card-info-data {  --font-color: white; --text-highlight-color: white; font-size: 15px;}
+#aside-content .card-info .card-info-data > .card-info-data-item:hover>a>div.length-num { color: #ffacac; }
+#aside-content .card-info .card-info-data > .card-info-data-item:hover>a>div.headline { color: #ffacac; }
+
+#aside-content .aside-list > .aside-list-item .content > .title { color: #ffffff; }
+#aside-content .aside-list > .aside-list-item .content > time { color: #ffffff; }
+#aside-content #card-toc .toc-content .toc-link { color: #ffffff; }
+
+
+#recent-posts > .recent-post-item { background: #191919; color: white; align-items: start;}
+#recent-posts > .recent-post-item > .recent-post-info > .article-title { margin-top: 20px; -webkit-line-clamp: 1;  color: #ffffff; font-size: 18px; font-weight: 600; line-height: 1.4; }
+#recent-posts > .recent-post-item > .recent-post-info > .article-title:hover { color: #ffacac; }
+#recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap { color: #c9c9c9; }
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a { color: #c9c9c9; }
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover { color: #ffacac; }
+#recent-posts > .recent-post-item > .recent-post-info > .content { color: rgba(255,255,255,0.6); font-size: 16px;}
+#recent-posts > .recent-post-item > .recent-post-info > .content:hover { color: #ffacac; }
+
+@media screen and (max-width: 768px) { #recent-posts > .recent-post-item { width: 100%; } }
+
