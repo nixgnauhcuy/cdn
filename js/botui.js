@@ -469,7 +469,7 @@ function bot_ui_ini() {
       end = function () {
         botui.message.add({
             delay: 1200,
-            content: "![...](https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/about/00.jpg)"
+            content: "![...](https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn@V1.1/image/about/00.jpg)"
         })
       },
       secondpart = function() {
