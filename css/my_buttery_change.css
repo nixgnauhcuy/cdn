@@ -9,16 +9,16 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-
 body {
-    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/huaji.png),
+    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn@V1.1/image/huaji.png),
         default;
 }
 a,
 img {
-    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/yinxian.png),
+    cursor: url(https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn@V1.1/image/yinxian.png),
         default;
 }
+
 
 
 /* 文章中 [](url) 超链接 */
