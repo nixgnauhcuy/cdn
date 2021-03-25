@@ -102,7 +102,6 @@ img:hover{
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a { color: #c9c9c9; }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover { color: #ffacac; }
 #recent-posts > .recent-post-item > .recent-post-info > .content { color: rgba(255,255,255,0.6); font-size: 16px;}
-#recent-posts > .recent-post-item > .recent-post-info > .content:hover { color: #ffacac; }
 
 @media screen and (max-width: 768px) { #recent-posts > .recent-post-item { width: 100%; } }
 
