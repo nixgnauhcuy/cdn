@@ -1,0 +1,97 @@
+.jun-meter {
+    position: relative;
+    width: 192px;
+    height: 192px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/ring.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+.jun-time-rect {
+    position: absolute;
+    width: 9px;
+    height: 24px;
+    left: 82px;
+    top: 54px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/rect.svg");
+    background-size: 12px 12px;
+}
+
+.jun-time-h-h {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 42px;
+    top: 51px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/8.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jun-time-h-l {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 60px;
+    top: 51px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/8.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jun-time-m-h {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 87px;
+    top: 51px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/8.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jun-time-m-l {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 105px;
+    top: 51px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/8.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jun-time-s-h {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 129px;
+    top: 62px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/8.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jun-time-s-l {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 140px;
+    top: 62px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/8.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.jun-human{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 75px;
+    top: 84px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/clock/human.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
