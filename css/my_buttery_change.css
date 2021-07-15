@@ -76,7 +76,8 @@ img:hover{
 }
 
 
-
+.avatar-img { height: 190px; }
+	
 #aside-content .card-widget { background: #191919; color: white; }
 #aside-content>.card-widget:first-child { padding-bottom: 1.2rem; padding: 0px; }
 
